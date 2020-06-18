@@ -12,7 +12,7 @@
 
 ## Sobre
 
-O projeto **casa criativa** é uma aplicação web onde o usuário pode salvar
+O projeto **casa criativa** é uma aplicação web na qual o usuário pode salvar
 ideias para ver depois que foi criado dentro do <a href="https://www.youtube.com/playlist?list=PL85ITvJ7FLohGTWaE_p0J6B-TLmQbN4ka">Workshop Dev Especial</a> no canal do YouTube da Rocketseat.
 
 ---
