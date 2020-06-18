@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <section id="intro">
+        <header>
+            <img src="/logo.png" alt="Casa criativa">
+        </header>
+        <main>
+            <p>
+                Ficar em casa em períodos longos, não deve ser nada fácil.
+            </p>
+            <p>
+                Por isso, iremos catalogar <strong>ideias, brincadeiras, jogos, filmes 
+                livros, cursos, dicas</strong> e tudo que for necessário para tornar 
+                esse momento mais interessante.
+            </p>
+            <p>
+                Comece clicando em ver ideias para ver as ideias cadastradas 
+                e cotribua adicionando a sua.
+            </p>
+        </main>
+        <section id="buttons">
+            <button onclick="onOff()">+ Adicionar Ideias</button>
+            <a href="/ideias" class="button">Ver Ideias</a>
+        </section>
+        <footer>
+            <!-- target="_blank" serve para abrir em uma nova aba -->
+            Com ❤️ <a href="https://github.com/rodrigobcintra" target="_blank">Rodrigo B Cintra</a>
+        </footer>
+    </section>
+    <section id="last-ideas">
+        {% include "partials/all_ideas.html" %}
+    </section>
+{% endblock %}

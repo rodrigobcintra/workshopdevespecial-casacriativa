@@ -1,0 +1,22 @@
+{
+  "name": "worksho_dev_especial_casa_criativa",
+  "version": "1.0.0",
+  "description": "Armazene suas ideias para acessar posteriormente",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Rodrigo B Cintra",
+  "license": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1",
+    "sqlite3": "https://github.com/mapbox/node-sqlite3/tarball/master"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
