@@ -35,7 +35,7 @@ ideias para ver depois que foi criado dentro do <a href="https://www.youtube.com
     $ git clone https://github.com/rodrigobcintra/workshopdevespecial-casacriativa.git
 
     # acessar a pasta
-    $ cd workshopDevEspecial
+    $ cd workshopdevespecial-casacriativa
 
     # ligar o servidor local
     $ npm start
